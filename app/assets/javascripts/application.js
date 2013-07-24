@@ -15,4 +15,5 @@
 //= require turbolinks
 //= require flexslider
 //= require prettyphoto-rails
+//= require bootstrap
 //= require_tree .

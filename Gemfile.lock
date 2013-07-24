@@ -58,6 +58,7 @@ GEM
     erubis (2.7.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
+    ffi (1.9.0)
     ffi (1.9.0-x86-mingw32)
     flexslider (2.0.2)
     font-awesome-sass-rails (3.0.2.2)
@@ -99,7 +100,10 @@ GEM
     mime-types (1.23)
     mini_portile (0.5.1)
     minitest (4.7.5)
+    modernizr-rails (2.6.2.3)
     multi_json (1.7.7)
+    nokogiri (1.6.0)
+      mini_portile (~> 0.5.0)
     nokogiri (1.6.0-x86-mingw32)
       mini_portile (~> 0.5.0)
     pg (0.15.1-x86-mingw32)
@@ -109,6 +113,10 @@ GEM
       rails (>= 3.1)
       sass-rails
       uglifier
+    pry (0.9.12.2)
+      coderay (~> 1.0.5)
+      method_source (~> 0.8)
+      slop (~> 3.4)
     pry (0.9.12.2-x86-mingw32)
       coderay (~> 1.0.5)
       method_source (~> 0.8)
@@ -204,7 +212,7 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
-  bootstrap-sass
+  bootstrap-sass (~> 2.3.2.1)
   capybara (= 2.1.0)
   childprocess (= 0.3.9)
   coffee-rails (= 4.0.0)
@@ -214,6 +222,7 @@ DEPENDENCIES
   guard-spork (= 1.5.0)
   jbuilder (~> 1.2)
   jquery-rails (= 2.2.1)
+  modernizr-rails
   nokogiri
   pg (= 0.15.1)
   prettyphoto-rails
