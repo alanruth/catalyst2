@@ -9,6 +9,7 @@ Catalyst2::Application.routes.draw do
   get 'pages/portfolio', :as => "portfolio"
   get 'pages/blog', :as => "blog"
   get 'pages/contact', :as => "contact"
+  get 'pages/gallery', to: 'pages#gallery', :as => 'gallery'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
