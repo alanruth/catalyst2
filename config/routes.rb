@@ -1,7 +1,10 @@
 Catalyst2::Application.routes.draw do
+
+  get 'pages/about', to: 'pages#about', :as => 'about'
+
   root 'pages#index'
-  get 'pages/services', :as => "services"
-  get 'pages/about', :as => "aboutus"
+  get 'pages/services', to: 'pages#services', :as => "services"
+
   get 'pages/register', :as => "register"
   get 'pages/portfolio', :as => "portfolio"
   get 'pages/blog', :as => "blog"
