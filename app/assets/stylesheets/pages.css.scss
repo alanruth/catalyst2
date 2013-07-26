@@ -1,3 +1,56 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.scss.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+/* overrides added by Alan */
+#slide1 {
+  background-image: url("pictures/2.jpg");
+}
+#slide2 {
+  background-image: url("pictures/3.jpg");
+}
+#slide3 {
+  background-image: url("pictures/1.jpg");
+}
+#project1 {
+  background-image: url('portfolio/a1.jpg');
+}
+#project2 {
+  background-image: url('portfolio/t5.jpg');
+}
+#project3 {
+  background-image: url('portfolio/p3.jpg');
+}
+#project4 {
+  background-image:url('portfolio/t4.jpg');
+}
+#media1 {
+  background-image:url('portfolio/t5.jpg');
+}
+#media2 {
+  background-image:url('portfolio/t4.jpg');
+}
+
+#about_us_pic {
+  background-image: url('pictures/about_us.jpg');
+}
+
+#services_pic {
+  background-image: url('pictures/services.jpg');
+}
+
+#team_figure1_background {
+  background-image: url('pictures/1b.jpg');
+}
+
+#team_figure2_background {
+  background-image: url('pictures/2b.jpg');
+}
+
+#team_figure3_background {
+  background-image: url('pictures/3b.jpg');
+}
+
+#team_figure4_background {
+  background-image: url('pictures/4b.jpg');
+}
