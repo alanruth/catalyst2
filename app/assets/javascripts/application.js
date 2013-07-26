@@ -13,7 +13,12 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
-//= require flexslider
-//= require prettyphoto-rails
 //= require bootstrap
+//= require easing
+//= require jquery.flexslider
+//= require jquery.isotope
+//= require jquery.prettyPhoto
+//= require jquery.ui.totop
+//= require modernizr.custom.48287
+//= require restart_theme
 //= require_tree .

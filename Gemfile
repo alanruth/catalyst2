@@ -6,8 +6,8 @@ gem 'rails', '4.0.0'
 gem 'bootstrap-sass', '~> 2.3.2.1'
 gem 'font-awesome-sass-rails'
 gem 'nokogiri'
-gem 'flexslider'
-gem 'prettyphoto-rails'
+#gem 'flexslider'
+#gem 'prettyphoto-rails'
 #gem 'less-rails'
 
 # Use postgresql as the database for Active Record

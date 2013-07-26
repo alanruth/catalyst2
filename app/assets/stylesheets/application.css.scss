@@ -11,8 +11,10 @@
  *= require_self
  *= require_tree .
  *= require _font-awesome
- *= require flexslider.css
- *= require prettyphoto-rails
+ *= require animate
+ *= require flexslider
+ *= require isotope_style
+ *= require prettyPhoto
  */
 @import "bootstrap";
 @import "bootstrap-responsive";
