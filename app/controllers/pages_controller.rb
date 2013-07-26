@@ -1,7 +1,6 @@
 class PagesController < ApplicationController
   def index
-    require 'open-uri'
-    doc = Nokogiri::HTML(open("http://www.servelife.com/"))
+
   end
 
   def about
@@ -13,6 +12,18 @@ class PagesController < ApplicationController
   end
 
   def register
+
+  end
+
+  def portfolio
+
+  end
+
+  def blog
+
+  end
+
+  def contact
 
   end
 end
