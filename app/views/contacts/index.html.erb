@@ -29,37 +29,37 @@
           </address>
         </div>
         <div class="span8 contact_form">
-          <%= form_tag("/addcontact", method: "post") do %>
-            <div class="row">
-              <div class="span4">
-                <%= label_tag("Name:") %>
-                <%= text_field(:contact, :name, :class => 'span4') %>
-                <!--<label>Name</label>-->
-                <!--<input type="text" class="span4">-->
+          <%= form_for @contact, url: {action: "create"} do |f| %>
+              <div class="row">
+                <div class="span4">
+                  <%= f.label :name %>
+                  <%= f.text_field :name, :class => 'span4' %>
+                  <!--<label>Name</label>-->
+                  <!--<input type="text" class="span4">-->
+                </div>
+                <div class="span4">
+                  <%= f.label :email %>
+                  <%= f.email_field :email, :class => 'span4' %>
+                  <!--<label>E-mail</label>-->
+                  <!--<input type="text" class="span4">-->
+                </div>
+                <div class="span8">
+                  <%= f.label :subject %>
+                  <%= f.text_field :subject, :class => 'span8' %>
+                  <!--<label>Subject</label>-->
+                  <!--<input type="text" class="span8">-->
+                </div>
+                <div class="span8">
+                  <%= f.label :message %>
+                  <%= f.text_area :message, :class => 'span8', :rows => '8' %>
+                  <!--<label>Message</label>-->
+                  <!--<textarea rows="8" class="span8"></textarea>-->
+                </div>
+                <div class="span8">
+                  <%= f.submit "Submit Message", class: "btn btn-large btn-success" %>
+                  <!--<a class="btn btn-large btn-success"><span>Submit Message</span></a>-->
+                </div>
               </div>
-              <div class="span4">
-                <%= label_tag("Email") %>
-                <%= email_field(:contact, :email, :class => 'span4') %>
-                <!--<label>E-mail</label>-->
-                <!--<input type="text" class="span4">-->
-              </div>
-              <div class="span8">
-                <%= label_tag("Subject") %>
-                <%= text_field(:contact, :subject, :class => 'span8') %>
-                <!--<label>Subject</label>-->
-                <!--<input type="text" class="span8">-->
-              </div>
-              <div class="span8">
-                <%= label_tag("Message") %>
-                <%= text_area(:contact, :message, :class => 'span8', :rows => '8') %>
-                <!--<label>Message</label>-->
-                <!--<textarea rows="8" class="span8"></textarea>-->
-              </div>
-              <div class="span8">
-                <%= submit_tag "Submit Message", class: "btn btn-large btn-success" %>
-                <!--<a class="btn btn-large btn-success"><span>Submit Message</span></a>-->
-              </div>
-            </div>
           <% end %>
         </div>
       </div>
