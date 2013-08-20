@@ -1,19 +1,8 @@
 Catalyst2::Application.routes.draw do
   resources :contacts, only: [:index, :create]
   root 'pages#index'
-  #match 'contact', to: 'contacts#index', via: 'get'
-  #get 'contact', to: 'contacts#index', :as => 'contact'
-  #match 'contact', to: 'contacts#index', :as => 'contact'
-  #match '/addcontact', to: 'pages#create', via: 'post'
-  #match '/contact', to: 'contacts#create', via: 'post', :as => 'contacts'
-  get 'pages/about', to: 'pages#about', :as => 'about'
-  get 'pages/services', to: 'pages#services', :as => "services"
-  get 'pages/register', :as => "register"
-  get 'pages/portfolio', :as => "portfolio"
-  get 'pages/blog', :as => "blog"
-  #get 'pages/contact', :as => "contact"
-
-  get 'pages/gallery', to: 'pages#gallery', :as => 'gallery'
+  match 'contact', to: 'contacts#index', via: 'get'
+  get 'about', to: 'pages#about', :as => 'about'
 
 
   # The priority is based upon order of creation: first created -> highest priority.

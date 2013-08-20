@@ -3,54 +3,39 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 /* overrides added by Alan */
-#slide1 {
-  background-image: url("pictures/2.jpg");
+.heading_small_text {
+  font-size: 18px;
+  line-height: 20px;
 }
-#slide2 {
-  background-image: url("pictures/3.jpg");
+#index_slide1 {
+  background-image: url("pictures/lightning1d.png");
 }
-#slide3 {
-  background-image: url("pictures/1.jpg");
+#index_slide2 {
+  background-image: url("pictures/rockplant6.png");
 }
-#project1 {
-  background-image: url('portfolio/a1.jpg');
+#index_slide3 {
+  background-image: url("pictures/waterdrop.jpg");
 }
-#project2 {
-  background-image: url('portfolio/t5.jpg');
-}
-#project3 {
-  background-image: url('portfolio/p3.jpg');
-}
-#project4 {
-  background-image:url('portfolio/t4.jpg');
-}
-#media1 {
-  background-image:url('portfolio/t5.jpg');
-}
-#media2 {
-  background-image:url('portfolio/t4.jpg');
+#aboutus_image {
+  background-image: url("pictures/denver.png");
 }
 
-#about_us_pic {
-  background-image: url('pictures/about_us.jpg');
+.feature_teaser i {
+  color: #0088CC;
 }
 
-#services_pic {
-  background-image: url('pictures/services.jpg');
+#talent_image {
+    background-image: url("pictures/crowd.jpg");
 }
 
-#team_figure1_background {
-  background-image: url('pictures/1b.jpg');
+#catalyst_image {
+    background-image: url("pictures/birds.jpg");
 }
 
-#team_figure2_background {
-  background-image: url('pictures/2b.jpg');
+blockquote {
+    border-right: 5px solid #EEEEEE;
 }
 
-#team_figure3_background {
-  background-image: url('pictures/3b.jpg');
-}
-
-#team_figure4_background {
-  background-image: url('pictures/4b.jpg');
+.icon-6x {
+    font-size: 6em;
 }

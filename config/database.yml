@@ -19,7 +19,7 @@ development:
   encoding: unicode
   database: catalyst_development
   pool: 5
-  username: catalyst
+  username: postgres
   password: drpepper
 
   # Connect on a TCP socket. Omitted by default since the client uses a
@@ -48,7 +48,7 @@ test:
   encoding: unicode
   database: catalyst_test
   pool: 5
-  username: catalyst
+  username: postgres
   password: drpepper
 
 production:

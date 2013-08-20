@@ -1495,7 +1495,7 @@ textarea[class*="span"],
 .row-fluid textarea[class*="span"],
 .row-fluid .uneditable-input[class*="span"] {
   float: none;
-  margin-left: 0;
+  /* ABR margin-left: 0; */
 }
 .input-append input[class*="span"],
 .input-append .uneditable-input[class*="span"],
@@ -2561,7 +2561,7 @@ table th[class*="span"],
   *margin-right: .3em;
   line-height: 14px;
   vertical-align: text-top;
-  background-image: url('glyphicons-halflings.png');
+  background-image: url("glyphicons-halflings.png");
   background-position: 14px 14px;
   background-repeat: no-repeat;
   margin-top: 1px;
@@ -5220,7 +5220,8 @@ input[type="submit"].btn.btn-mini {
   top: 10%;
   left: 50%;
   z-index: 1050;
-  width: 560px;
+  /* ABR width: 560px */
+  width: 630px;
   margin-left: -280px;
   background-color: #ffffff;
   border: 1px solid #999;
@@ -5263,7 +5264,7 @@ input[type="submit"].btn.btn-mini {
 .modal-body {
   position: relative;
   overflow-y: auto;
-  max-height: 400px;
+  max-height: 450px;
   padding: 15px;
 }
 .modal-form {
@@ -6107,7 +6108,7 @@ a.badge:focus {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-@-ms-viewport {
+@ms-viewport {
   width: device-width;
 }
 .hidden {
@@ -7910,13 +7911,13 @@ a.badge:focus {
 /*!
 Theme Name: {re}start
 THEME STYLES
-================================================================= 
+=================================================================
 */
 /* =General
 -------------------------------------------------------------- */
 body {
   -webkit-font-smoothing: antialiased;
-  background: url("backgrounds/wild_oliva_light.png");
+  background: url(backgrounds/wild_oliva_light.png);
 }
 h1,
 h2,
@@ -7981,14 +7982,14 @@ a:focus {
 /* =Header
 -------------------------------------------------------------- */
 header {
-  background: url('backgrounds/wild_oliva_light_head.png');
+  background: url(backgrounds/wild_oliva_light_head.png);
   border-bottom: solid 1px #cccccc;
 }
 header .container {
   position: relative;
 }
 .navbar {
-  margin: 36px 0px;
+  margin: 18px 0px; /*ABR margin: 36px 0px; */
 }
 .navbar .navbar-inner {
   background-color: transparent;
@@ -8004,7 +8005,7 @@ header .container {
   margin: 0px 0;
   padding: 0px;
   overflow: hidden;
-  width: 315px;
+  width: 350px; /* ABR: 315px */
 }
 .navbar .navbar-inner a.brand img {
   float: left;
@@ -8062,7 +8063,7 @@ header .container {
   margin-top: 22px;
   margin-right: 0;
   margin-left: 0;
-  background: url('backgrounds/wild_oliva_light.png');
+  background: url(backgrounds/wild_oliva_light.png);
 }
 .navbar .btn-navbar span.nb_left {
   padding: 5px;
@@ -8079,18 +8080,18 @@ header .container {
 }
 .in .nav li a {
   margin: 0 0 6px 0px;
-  background: url('backgrounds/wild_oliva_light.png');
+  background: url(backgrounds/wild_oliva_light.png);
 }
 .in .nav li a:hover,
 .in .nav li a:active {
-  background: url('backgrounds/wild_oliva_blue_light.png');
+  background: url(backgrounds/wild_oliva_blue_light.png);
   color: #ffffff;
   text-shadow: 0px 0px 0 transparent;
   border-bottom: solid 0px #0088cc;
 }
 .in .nav li.active a,
 .in .nav li.active a:hover {
-  background: url('backgrounds/wild_oliva_dark.png');
+  background: url(backgrounds/wild_oliva_dark.png);
   color: #ffffff;
   text-shadow: 0px 0px 0 transparent;
   border-bottom: solid 0px #0088cc;
@@ -8115,7 +8116,7 @@ header .container {
   display: block;
   float: left;
   margin: 0 3px;
-  background: url('backgrounds/wild_oliva_light.png');
+  background: url(backgrounds/wild_oliva_light.png);
   -webkit-border-radius: 500px;
   -moz-border-radius: 500px;
   border-radius: 500px;
@@ -8132,7 +8133,7 @@ header .container {
 #social_media_wrapper a:active {
   text-decoration: none;
   color: #ffffff;
-  background: url('backgrounds/wild_oliva_blue_light.png');
+  background: url(backgrounds/wild_oliva_blue_light.png);
 }
 #sign {
   position: absolute;
@@ -8304,7 +8305,7 @@ header .container {
   top: 0;
   left: 0;
   width: 100%;
-  height: 162px;
+  height: 108px;  /* ABR height: 162px; */
   z-index: 10;
 }
 .collapsing_header header.absolute {
@@ -8314,20 +8315,20 @@ header .container {
 }
 .collapsing_header .full_page_photo {
   position: fixed;
-  top: 162px;
+  top: 108px;  /* ABR top: 162px; */
 }
 .collapsing_header #main {
   position: relative;
-  top: 562px;
+  top: 508px;  /* ABR top: 562px; */
 }
 /* =Main, Homepage
 -------------------------------------------------------------- */
 #main {
-  background: url('backgrounds/wild_oliva_light.png');
+  background: url(backgrounds/wild_oliva_light.png);
 }
 section.call_to_action {
   text-align: center;
-  padding: 35px 0 45px 0;
+  padding: 35px 0 20px 0;  /* ABR padding: 35px 0 45px 0; */
 }
 section.call_to_action h3 {
   font-weight: 300;
@@ -8439,7 +8440,7 @@ figure {
   text-align: center;
   background-color: #000000;
   background-color: #222222;
-  background: url('backgrounds/wild_oliva_dark.png');
+  background: url(backgrounds/wild_oliva_dark.png);
   color: #cccccc;
   padding: 40px;
   -webkit-transition: all 500ms linear;
@@ -8675,7 +8676,7 @@ ul#portfolio_filters li .active a:hover {
   border-radius: 3px;
 }
 .portfolio_strict .portfolio_item:hover {
-  background: url('backgrounds/wild_oliva_blue_light.png');
+  background: url(backgrounds/wild_oliva_blue_light.png);
 }
 .portfolio_strict .portfolio_item:hover a {
   color: #ffffff;
@@ -8714,7 +8715,7 @@ ul#portfolio_filters li .active a:hover {
   border-radius: 3px;
 }
 .portfolio_strict .portfolio_item .portfolio_photo a i {
-  background: url('backgrounds/wild_oliva_blue_light.png');
+  background: url(backgrounds/wild_oliva_blue_light.png);
   -webkit-border-radius: 500px;
   -moz-border-radius: 500px;
   border-radius: 500px;
@@ -8805,7 +8806,7 @@ ul#portfolio_filters li .active a:hover {
   line-height: 22px;
 }
 .portfolio_masonry .portfolio_item a .overlay i {
-  background: url('backgrounds/wild_oliva_blue_light.png');
+  background: url(backgrounds/wild_oliva_blue_light.png);
   -webkit-border-radius: 500px;
   -moz-border-radius: 500px;
   border-radius: 500px;
@@ -9074,7 +9075,7 @@ footer {
   color: #ffffff;
   border-top: solid 2px #ffffff;
   background-color: #222222;
-  background: url('backgrounds/wild_oliva_dark.png');
+  background: url(backgrounds/wild_oliva_dark.png);
 }
 footer a:hover,
 footer a:active {
@@ -9088,9 +9089,10 @@ footer a:active {
   border-top: solid 1px #000000;
   margin-top: 48px;
 }
-#twitter_feed_wrapper .twitter_feed_icon a {
+/* ABR #twitter_feed_wrapper .twitter_feed_icon a */
+#twitter_feed_wrapper .twitter_feed_icon i {
   padding: 7px 0;
-  font-size: 70px;
+  font-size: 50px;
   display: block;
   text-align: center;
 }
@@ -9832,7 +9834,7 @@ blockquote p {
 /* =Responsive: Large desktop and up
 -------------------------------------------------------------- */
 @media (min-width: 1200px) {
-  
+
 }
 /* =Responsive: Desktop
 -------------------------------------------------------------- */
@@ -10133,4 +10135,3 @@ blockquote p {
     display: none;
   }
 }
-
