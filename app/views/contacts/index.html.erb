@@ -27,22 +27,16 @@
           <%= form_for @contact, url: {action: "create"} do |f| %>
               <div class="row">
                 <div class="span4">
-                  <%= f.label :name %>
-                  <%= f.text_field :name, :class => 'span4' %>
-                  <!--<label>Name</label>-->
-                  <!--<input type="text" class="span4">-->
+                  <%= f.label :first_name %>
+                  <%= f.text_field :first_name, :class => 'span2', :placehoder => 'First Name' %>
+                  <%= f.label :last_name %>
+                  <%= f.text_field :last_name, :class => 'span2', :placehoder => 'Last Name' %>
                 </div>
                 <div class="span4">
                   <%= f.label :email %>
                   <%= f.email_field :email, :class => 'span4' %>
                   <!--<label>E-mail</label>-->
                   <!--<input type="text" class="span4">-->
-                </div>
-                <div class="span8">
-                  <%= f.label :subject %>
-                  <%= f.text_field :subject, :class => 'span8' %>
-                  <!--<label>Subject</label>-->
-                  <!--<input type="text" class="span8">-->
                 </div>
                 <div class="span8">
                   <%= f.label :message %>

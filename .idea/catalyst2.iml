@@ -19,8 +19,10 @@
     <orderEntry type="library" scope="PROVIDED" name="activerecord (v4.0.0, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activerecord-deprecated_finders (v1.0.3, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activesupport (v4.0.0, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="addressable (v2.3.5, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="arel (v4.0.0, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="atomic (v1.1.13, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="awesome_print (v1.1.0, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bootstrap-sass (v2.3.2.1, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="builder (v3.1.4, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bundler (v1.3.5, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
@@ -30,6 +32,7 @@
     <orderEntry type="library" scope="PROVIDED" name="coffee-rails (v4.0.0, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-script (v2.2.0, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-script-source (v1.6.3, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="curl (v0.0.9, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="diff-lcs (v1.2.4, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubis (v2.7.0, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="execjs (v1.4.0, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
@@ -92,6 +95,7 @@
     <orderEntry type="library" scope="PROVIDED" name="turbolinks (v1.1.1, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tzinfo (v0.3.37, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="uglifier (v2.1.2, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="unidecoder (v1.1.1, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="xpath (v2.0.0, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
   </component>
   <component name="RModuleSettingsStorage">

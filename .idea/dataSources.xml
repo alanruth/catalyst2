@@ -18,7 +18,7 @@
     <data-source source="LOCAL" name="Rails catalyst2: test" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="eb39c7cc-4727-46c6-808b-306ccd4c16fa">
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql:catalyst_test</jdbc-url>
-      <user-name>postgres</user-name>
+      <user-name>catalyst</user-name>
       <user-password>dfcedfd8dfdadfcfdfdadfdadfcfdfd8</user-password>
       <libraries>
         <library>
