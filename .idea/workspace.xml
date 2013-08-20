@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5ee2e74-feb7-4358-8737-30ebebde77b4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/catalyst2.iml" afterPath="$PROJECT_DIR$/.idea/catalyst2.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/contact.rb" afterPath="$PROJECT_DIR$/app/models/contact.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/contacts_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/contacts_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/flexslider.css" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/flexslider.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/contacts.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/contacts.css.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/contacts/index.html.erb" afterPath="$PROJECT_DIR$/app/views/contacts/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/jquery.flexslider.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery.flexslider.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="catalyst2.iws" />
@@ -24,7 +15,7 @@
     <file path="/contact.rb" changelist="c5ee2e74-feb7-4358-8737-30ebebde77b4" time="1377024437348" ignored="false" />
     <file path="/routes.rb" changelist="c5ee2e74-feb7-4358-8737-30ebebde77b4" time="1376969539124" ignored="false" />
     <file path="/_navbar.html.erb" changelist="c5ee2e74-feb7-4358-8737-30ebebde77b4" time="1376972922589" ignored="false" />
-    <file path="/index.html.erb" changelist="c5ee2e74-feb7-4358-8737-30ebebde77b4" time="1377022668211" ignored="false" />
+    <file path="/index.html.erb" changelist="c5ee2e74-feb7-4358-8737-30ebebde77b4" time="1377025774534" ignored="false" />
     <file path="/pages.css.scss" changelist="c5ee2e74-feb7-4358-8737-30ebebde77b4" time="1376974388099" ignored="false" />
     <file path="/application.html.erb" changelist="c5ee2e74-feb7-4358-8737-30ebebde77b4" time="1376974489024" ignored="false" />
     <file path="/style.css.scss" changelist="c5ee2e74-feb7-4358-8737-30ebebde77b4" time="1376975816481" ignored="false" />
@@ -35,6 +26,7 @@
     <file path="/application.css.scss" changelist="c5ee2e74-feb7-4358-8737-30ebebde77b4" time="1376982174742" ignored="false" />
     <file path="/Gemfile" changelist="c5ee2e74-feb7-4358-8737-30ebebde77b4" time="1377021620571" ignored="false" />
     <file path="/20130820181538_add_last_name_to_contact.rb" changelist="c5ee2e74-feb7-4358-8737-30ebebde77b4" time="1377022626812" ignored="false" />
+    <file path="/contacts.css.scss" changelist="c5ee2e74-feb7-4358-8737-30ebebde77b4" time="1377024772909" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,15 +46,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="application.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/application.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="16" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="environment.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/environment.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -93,7 +76,7 @@
       <file leaf-file-name="application.css.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="26" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0">
+            <state line="18" column="42" selection-start="688" selection-end="688" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -108,19 +91,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/models/contact.rb">
+      <file leaf-file-name="contacts.css.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/contacts.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="60" selection-start="351" selection-end="351" vertical-scroll-proportion="0.18072289">
+            <state line="5" column="24" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="style.css.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/style.css.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="68" column="17" selection-start="1468" selection-end="1474" vertical-scroll-proportion="-5.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/contact.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="60" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/contacts/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="0" selection-start="1861" selection-end="1861" vertical-scroll-proportion="-10.75">
+            <state line="38" column="60" selection-start="1786" selection-end="1786" vertical-scroll-proportion="0.6825397">
               <folding />
             </state>
           </provider>
@@ -156,7 +157,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pages/contact.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" />
@@ -169,9 +169,10 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/db/migrate/20130820181538_add_last_name_to_contact.rb" />
-        <option value="$PROJECT_DIR$/app/views/contacts/index.html.erb" />
         <option value="$PROJECT_DIR$/app/models/contact.rb" />
         <option value="$PROJECT_DIR$/app/controllers/contacts_controller.rb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/contacts.css.scss" />
+        <option value="$PROJECT_DIR$/app/views/contacts/index.html.erb" />
       </list>
     </option>
   </component>
@@ -923,18 +924,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="208" selection-end="208" vertical-scroll-proportion="0.20547946">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/rails">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="19" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bin/bundle">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="19" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0" />
@@ -947,7 +936,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/assets/stylesheets/flexslider.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
@@ -983,13 +974,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="26" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="3" selection-start="567" selection-end="567" vertical-scroll-proportion="0.0">
@@ -1004,9 +988,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/contacts/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/models/contact.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="0" selection-start="1861" selection-end="1861" vertical-scroll-proportion="-10.75">
+        <state line="5" column="60" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="42" selection-start="688" selection-end="688" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1018,9 +1009,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/contact.rb">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/style.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="60" selection-start="351" selection-end="351" vertical-scroll-proportion="0.18072289">
+        <state line="68" column="17" selection-start="1468" selection-end="1474" vertical-scroll-proportion="-5.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/contacts.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="24" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/contacts/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="60" selection-start="1786" selection-end="1786" vertical-scroll-proportion="0.6825397">
           <folding />
         </state>
       </provider>
