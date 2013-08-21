@@ -22,3 +22,4 @@
 //= require modernizr.custom.48287
 //= require restart_theme
 //= require_tree .
+//= require_self
