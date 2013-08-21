@@ -8,8 +8,10 @@ class ContactsController < ApplicationController
 		@contact = Contact.new(contact_params)
 		if @contact.save
 			# Handle a successful save.
+			flash[:success] = "Thank You! Your message has been submited."
+			redirect_to root_path
 		else
-			#render 'new'
+			render 'index'
 		end
 	end
 

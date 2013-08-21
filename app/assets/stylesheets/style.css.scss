@@ -8263,7 +8263,11 @@ header .container {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  /* ABR */
+  position: relative;
+
 }
+
 .full_page_photo section.call_to_action {
   margin: 0;
   max-width: 960px;
@@ -8326,9 +8330,18 @@ header .container {
 #main {
   background: url(backgrounds/wild_oliva_light.png);
 }
+
+/*ABR - Added */
+#subpage_main {
+  background: url(backgrounds/wild_oliva_light.png);
+  position: relative;
+
+
+}
+
 section.call_to_action {
   text-align: center;
-  padding: 35px 0 20px 0;  /* ABR padding: 35px 0 45px 0; */
+  padding: 15px 0 20px 0;  /* ABR padding: 35px 0 45px 0; */
 }
 section.call_to_action h3 {
   font-weight: 300;

@@ -3,6 +3,7 @@ Catalyst2::Application.routes.draw do
   root 'pages#index'
   match 'contact', to: 'contacts#index', via: 'get'
   get 'about', to: 'pages#about', :as => 'about'
+	get 'thankyou', to: 'pages#thankyou', :as => 'thankyou'
 
 
   # The priority is based upon order of creation: first created -> highest priority.
