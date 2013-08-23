@@ -1,0 +1,83 @@
+<% content_for :title do %>Impact Player Evaluation
+<% end %>
+<% content_for :description do %>Description
+<% end %>
+
+
+<div id="subpage_main">
+  <div class="container">
+    <section id="about_us">
+      <div class="hgroup">
+        <h1>Impact Player Evaluation.</h1>
+
+        <h2>Bring over twenty years of talent management and consulting leadership to your benefit. We will review your
+          resume, online profiles and recent work experiences. You will come away with solid feedback regarding these
+          items
+          and guidance on the job market. So let's talk.
+        </h2>
+        <ul class="breadcrumb pull-right">
+          <li><%= link_to "Home", root_path %>
+            <span class="divider">/</span></li>
+          <li class="active">Evaluation</li>
+        </ul>
+      </div>
+      <article>
+        <div class="row">
+          <div class="span8 contact_form">
+            <%= form_for @catalyst, url: {action: "create"} do |f| %>
+              <%= render 'shared/error_messages', :object => f.object %>
+              <div class="row">
+                <div class="span4">
+                  <%= f.label :first_name %>
+                  <%= f.text_field :first_name, :class => 'span4', :placeholder => "[required] First Name" %>
+                </div>
+                <div class="span4">
+                  <%= f.label :last_name %>
+                  <%= f.text_field :last_name, :class => 'span4', :placeholder => "[required] Last Name" %>
+                </div>
+                <div class="span4">
+                  <%= f.label :email %>
+                  <%= f.email_field :email, :class => 'span4', :placeholder => "[required] email address" %>
+                </div>
+                <div class="span4">
+                  <%= f.label :phone %>
+                  <%= f.phone_field :phone, :class => 'span4', :placeholder => "Best # to reach you." %>
+                </div>
+                <div class="span4">
+                  <%= f.label :linkedin %>
+                  <%= f.url_field :linkedin, :class => 'span4', :placeholder => "URL to your LinkedIn profile." %>
+                </div>
+                <div class="span4">
+                  <%= f.label :website %>
+                  <%= f.url_field :website, :class => 'span4', :placeholder => "Personal website? What is the URL?" %>
+                </div>
+                <div class="span8">
+                  <%= f.label :comments %>
+                  <%= f.text_area :comments, :class => 'span8', :rows => '4', :placeholder => "Provide us with some insight as to what you are looking for, what part of town you want to work in, why you are looking and any other information that you would like to share." %>
+                </div>
+                <div class="span8">
+                  <%= f.submit "Submit Message", class: "btn btn-large btn-success" %>
+                </div>
+              </div>
+            <% end %>
+          </div>
+          <div class="span4">
+            <blockquote>
+              <p>We will review:</p>
+              <ul class="icons-ul">
+                <li><i class="icon-li icon-ok"></i>Your Resume</li>
+                <li><i class="icon-li icon-ok"></i>LinkedIn Profile</li>
+                <li><i class="icon-li icon-ok"></i>Online Profiles</li>
+                <li><i class="icon-li icon-ok"></i>Recent Experience</li>
+                <li><i class="icon-li icon-ok"></i>Aspirations</li>
+                <li><i class="icon-li icon-ok"></i>Search Strategy</li>
+              </ul>
+            </blockquote>
+          </div>
+        </div>
+      </article>
+    </section>
+  </div>
+
+</div>
+

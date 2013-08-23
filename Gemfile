@@ -7,10 +7,7 @@ gem 'bootstrap-sass', '~> 2.3.2.1'
 gem 'font-awesome-rails'
 gem 'nokogiri'
 gem 'addressable'
-gem 'curl'
-#gem 'flexslider'
-#gem 'prettyphoto-rails'
-#gem 'less-rails'
+gem 'curb'
 
 # Use postgresql as the database for Active Record
 gem 'pg', '0.15.1'

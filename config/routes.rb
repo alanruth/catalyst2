@@ -1,5 +1,6 @@
 Catalyst2::Application.routes.draw do
   resources :contacts, only: [:index, :create]
+  resources :catalysts, only: [:new, :create]
   root 'pages#index'
   match 'contact', to: 'contacts#index', via: 'get'
   get 'about', to: 'pages#about', :as => 'about'

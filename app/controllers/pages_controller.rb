@@ -24,4 +24,8 @@ class PagesController < ApplicationController
 
   end
 
+  def newcatalyst
+
+  end
+
 end
