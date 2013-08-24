@@ -6,8 +6,7 @@ gem 'rails', '4.0.0'
 gem 'bootstrap-sass', '~> 2.3.2.1'
 gem 'font-awesome-rails'
 gem 'nokogiri'
-gem 'addressable'
-gem 'curb'
+gem 'rest-client'
 
 # Use postgresql as the database for Active Record
 gem 'pg', '0.15.1'
