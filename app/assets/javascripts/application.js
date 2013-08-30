@@ -12,7 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
+//= require jquery.turbolinks
 //= require bootstrap
 //= require easing
 //= require jquery.flexslider
@@ -21,5 +21,6 @@
 //= require jquery.ui.totop
 //= require modernizr.custom.48287
 //= require restart_theme
+//= require turbolinks
 //= require_tree .
 //= require_self
