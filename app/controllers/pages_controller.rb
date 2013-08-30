@@ -28,4 +28,11 @@ class PagesController < ApplicationController
 
   end
 
+	def catalyst
+
+	end
+
+	def talentscouting
+
+	end
 end

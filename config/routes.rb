@@ -5,6 +5,8 @@ Catalyst2::Application.routes.draw do
   match 'contact', to: 'contacts#index', via: 'get'
   get 'about', to: 'pages#about', :as => 'about'
 	get 'thankyou', to: 'pages#thankyou', :as => 'thankyou'
+	get 'catalyst', to: 'pages#catalyst', :as => 'catalyst'
+	get 'talentscouting', to: 'pages#talentscouting', :as => 'talentscouting'
 
 
   # The priority is based upon order of creation: first created -> highest priority.
